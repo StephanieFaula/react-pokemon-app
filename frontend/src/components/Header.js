@@ -10,8 +10,6 @@ const Header = () => {
                     </ul>
                 </div>
             </nav>
-
-            <h1 className="center">Pokédex</h1>
         </div>
     );
 }

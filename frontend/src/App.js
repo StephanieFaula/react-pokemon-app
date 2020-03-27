@@ -1,8 +1,18 @@
 import React from 'react';
+import PokemonList from './pages/PokemonList';
+import Header from './components/Header';
+import Search from './components/Search';
+const App = () => {
 
-function App() {
+
   return (
-    <div>Salut</div>
+    <div>
+      <Header />
+      <div className="container">
+        <Search />
+        <PokemonList />
+      </div>
+    </div>
   );
 }
 
